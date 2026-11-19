@@ -1,0 +1,6 @@
+Baseline source: the three supplied HW1 checkpoint files.
+Files: inventory_manager.py, inventory.txt, TESTING.md
+No mkdocs.yml or documentation website was supplied in this checkpoint.
+MkDocs source pages: 0
+TESTING.md is a historical manual testing record, preserved unchanged.
+The separate HW2 pytest file was not supplied; its 47-test screenshot is not used as a result for HW4.

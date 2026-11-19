@@ -1,0 +1,4 @@
+$ python -m ruff format --check .
+11 files already formatted
+
+Exit code: 0

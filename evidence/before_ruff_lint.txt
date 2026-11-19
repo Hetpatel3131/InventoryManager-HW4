@@ -1,0 +1,26 @@
+$ python -m ruff check inventory_manager.py
+FURB122 [*] Use of `file.write` in a for loop
+  --> inventory_manager.py:49:9
+   |
+47 |       """Save the complete inventory to a pipe-delimited text file."""
+48 |       with open(filename, "w", encoding="utf-8") as file:
+49 | /         for item in inventory:
+50 | |             file.write(
+51 | |                 f'{item["name"]}|{item["category"]}|{item["quantity"]}\n'
+52 | |             )
+   | |_____________^
+help: Replace with `file.writelines`
+   |
+48 |     with open(filename, "w", encoding="utf-8") as file:
+   -         for item in inventory:
+   -             file.write(
+   -                 f'{item["name"]}|{item["category"]}|{item["quantity"]}\n'
+   -             )
+49 +         file.writelines(f'{item["name"]}|{item["category"]}|{item["quantity"]}\n' for item in inventory)
+50 |
+   |
+
+Found 1 error.
+[*] 1 fixable with `--fix`.
+
+Exit code: 1

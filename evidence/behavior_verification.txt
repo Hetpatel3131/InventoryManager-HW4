@@ -1,0 +1,12 @@
+HW4 verification performed in the assistant workspace on Python 3.12.14.
+Uses isolated temporary data copies and the preserved baseline source.
+This is not the HW2 pytest suite or a coverage measurement.
+
+PASS: save/load empty inventory; identical output bytes and correct reload
+PASS: save/load one record; identical output bytes and correct reload
+PASS: save/load multiple records; identical output bytes and correct reload
+PASS: save/load UTF-8 names; identical output bytes and correct reload
+PASS: sample view, summary, search, exit; identical terminal output and saved data before/after
+PASS: add, update, search, remove, summary, exit; identical terminal output and saved data before/after
+PASS: invalid menu, blank name, negative quantity, blank search; identical terminal output and saved data before/after
+PASS: supplied inventory.txt was not modified by verification

@@ -1,0 +1,4 @@
+$ python -m ruff format inventory_manager.py
+1 file reformatted
+
+Exit code: 0

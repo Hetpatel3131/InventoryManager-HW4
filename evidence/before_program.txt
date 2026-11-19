@@ -1,0 +1,62 @@
+$ python inventory_manager.py
+Menu inputs: 1, 6, 5, charger, 7
+
+
+Inventory Manager
+1. View inventory
+2. Add an item
+3. Update an item quantity
+4. Remove an item
+5. Search inventory
+6. View inventory summary
+7. Exit
+Choose an option (1-7): 
+Inventory:
+1. Laptop Charger | Electronics | Quantity: 8
+2. Printer Paper | Office Supplies | Quantity: 25
+3. Dry-Erase Markers | Classroom Supplies | Quantity: 4
+4. USB-C Cable | Electronics | Quantity: 12
+5. Sticky Notes | Office Supplies | Quantity: 3
+
+Inventory Manager
+1. View inventory
+2. Add an item
+3. Update an item quantity
+4. Remove an item
+5. Search inventory
+6. View inventory summary
+7. Exit
+Choose an option (1-7): 
+Inventory Summary
+Unique items: 5
+Total quantity: 52
+Low-stock items: 2
+
+Items by category:
+Electronics: 2
+Office Supplies: 2
+Classroom Supplies: 1
+
+Inventory Manager
+1. View inventory
+2. Add an item
+3. Update an item quantity
+4. Remove an item
+5. Search inventory
+6. View inventory summary
+7. Exit
+Choose an option (1-7): Enter part or all of an item name: 
+Search Results:
+1. Laptop Charger | Electronics | Quantity: 8
+
+Inventory Manager
+1. View inventory
+2. Add an item
+3. Update an item quantity
+4. Remove an item
+5. Search inventory
+6. View inventory summary
+7. Exit
+Choose an option (1-7): Goodbye!
+
+Exit code: 0

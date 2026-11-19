@@ -1,0 +1,6 @@
+$ python -m mkdocs build --strict
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /workspace/scratch/9d13d81d0c9a/hw4/InventoryManager-HW4/site
+INFO    -  Documentation built in 0.14 seconds
+
+Exit code: 0

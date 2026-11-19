@@ -1,0 +1,39 @@
+$ python -m ruff format --check inventory_manager.py
+unformatted: File would be reformatted
+   --> inventory_manager.py:50:24
+    |
+49  |         for item in inventory:
+    -             file.write(
+    -                 f'{item["name"]}|{item["category"]}|{item["quantity"]}\n'
+    -             )
+50  +             file.write(f"{item['name']}|{item['category']}|{item['quantity']}\n")
+51  |
+--------------------------------------------------------------------------------
+61  |         print(
+    -             f'{index}. {item["name"]} | {item["category"]} | '
+    -             f'Quantity: {item["quantity"]}'
+62  +             f"{index}. {item['name']} | {item['category']} | "
+63  +             f"Quantity: {item['quantity']}"
+64  |         )
+--------------------------------------------------------------------------------
+126 |     save_inventory(inventory, INVENTORY_FILE)
+    -     print(f'{item["name"]} quantity updated to {quantity}.')
+127 +     print(f"{item['name']} quantity updated to {quantity}.")
+128 |
+--------------------------------------------------------------------------------
+148 |     save_inventory(inventory, INVENTORY_FILE)
+    -     print(f'Item removed: {removed_item["name"]}')
+149 +     print(f"Item removed: {removed_item['name']}")
+150 |
+--------------------------------------------------------------------------------
+170 |         print(
+    -             f'{index}. {item["name"]} | {item["category"]} | '
+    -             f'Quantity: {item["quantity"]}'
+171 +             f"{index}. {item['name']} | {item['category']} | "
+172 +             f"Quantity: {item['quantity']}"
+173 |         )
+    |
+
+1 file would be reformatted
+
+Exit code: 1
