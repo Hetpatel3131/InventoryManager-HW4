@@ -3,10 +3,7 @@
 Project: Inventory Manager, using the supplied Homework 1 instructor solution
 checkpoint. The two categories are Code Quality and Documentation.
 
-Preparation note: ChatGPT helped prepare the changes, documentation, and this
-reflection draft, and ran the recorded checks in its workspace using Python
-3.12.14. These are real observed results. Review the explanations and personal
-reflection before submitting. See `AI_ASSISTANCE.md` for the scope of assistance.
+AI assistance: ChatGPT helped prepare the tool integrations, documentation, and reflection. The initial checks were run in ChatGPT's workspace using Python 3.12.14. The evidence folder contains the recorded results. See `AI_ASSISTANCE.md` for details.
 
 ## Tool 1: Ruff
 
